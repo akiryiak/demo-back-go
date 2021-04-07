@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-back-go
+  description: demo-back-go microservice
+  annotations: 
+    github.com/project-slug: akiryiak/demo-back-go
+    backstage.io/source-ref: "https://github.com/akiryiak/demo-back-go"
+    backstage.io/techdocs-ref: url:https://github.com/akiryiak/demo-back-go
+    backstage.io/github-actions-id: https://github.com/akiryiak/demo-back-go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: artur
