@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: demo-back-go
   description: demo-back-go microservice
- tags:
+  tags:
   - go
   - data
   links:
