@@ -7,6 +7,7 @@ metadata:
     - go
     - data
     - prod
+    - namespacee
   links:
     - title: Website
       url: http://backstage.io
@@ -15,6 +16,7 @@ metadata:
     backstage.io/source-ref: "https://github.com/akiryiak/demo-back-go"
     backstage.io/techdocs-ref: url:https://github.com/akiryiak/demo-back-go
     backstage.io/github-actions-id: https://github.com/akiryiak/demo-back-go
+  namespace: specific
 spec:
   type: service
   lifecycle: production
