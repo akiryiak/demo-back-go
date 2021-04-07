@@ -3,11 +3,14 @@ kind: Component
 metadata:
   name: demo-back-go
   description: demo-back-go microservice
+  labels:
+    environment: production
+    app: nginx
   tags:
     - go
     - data
     - prod
-    - namespacee
+    - lbl
   links:
     - title: Website
       url: http://backstage.io
@@ -16,7 +19,6 @@ metadata:
     backstage.io/source-ref: "https://github.com/akiryiak/demo-back-go"
     backstage.io/techdocs-ref: url:https://github.com/akiryiak/demo-back-go
     backstage.io/github-actions-id: https://github.com/akiryiak/demo-back-go
-  namespace: specific
 spec:
   type: service
   lifecycle: production
