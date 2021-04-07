@@ -4,11 +4,11 @@ metadata:
   name: demo-back-go
   description: demo-back-go microservice
   tags:
-  - go
-  - data
+    - go
+    - data
   links:
-  - title: Website
-    url: http://backstage.io
+    - title: Website
+      url: http://backstage.io
   annotations: 
     github.com/project-slug: akiryiak/demo-back-go
     backstage.io/source-ref: "https://github.com/akiryiak/demo-back-go"
