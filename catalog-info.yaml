@@ -2,15 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: demo-back-go
-  namespace: custom
-  labels:
-    environment: production
-    log_prefix: go.prod.demo
   description: demo-back-go microservice
   tags:
     - go
     - data
-    - namespace
+    - prod
   links:
     - title: Website
       url: http://backstage.io
@@ -21,5 +17,5 @@ metadata:
     backstage.io/github-actions-id: https://github.com/akiryiak/demo-back-go
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: artur
